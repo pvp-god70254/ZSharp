@@ -4,7 +4,7 @@ import sys
 a = 8000
 try:
     a = sys.argv(1)
-except OSError:
+except Exception:
     a = input('port: ')
 
 
