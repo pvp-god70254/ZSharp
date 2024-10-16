@@ -1,8 +1,8 @@
 mkdir compiler
 cd compiler
 
-echo "
- import { genZ } from './ZS.js'
+echo '
+ import { genZ } from "./ZS.js"
 
 
   var repeat;
@@ -14,7 +14,7 @@ echo "
     return text
   }
 
-  const code = await readFile('../script.zs')
+  const code = await readFile("../script.zs")
 
   new genZ(code).$(repeat)
-" > compiler.js
+' > compiler.js
