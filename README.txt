@@ -59,6 +59,6 @@ in compiler go to repeat and set the amount of times to run
 
 Launching server
 
-bash - python/python3 launchServer.py <port>
+bash - python/python3 launchServer.py
 
 not bash - double click file
